@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #7FFFD4;
+}
+
+div.container{
+    width: 300px;
+    background: #20B2AA;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 6px;
+}
+
+a.cp{
+    background: #32CD32;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+a.cc{
+    background: #4682B4;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+a.ac{
+    background: #FFD700;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+a.dc{
+    background: #FF0000;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a:hover{
+    background: #7FFFD4;
+    color: #363636;
+}
